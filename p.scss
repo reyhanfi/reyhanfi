@@ -1,0 +1,38 @@
+// Variables
+$color: blue;
+
+.Variables {
+  color: $color;
+}
+
+// Nesting
+.Nesting {
+  p {
+    color: $color;
+  }
+  ul {
+    color: red;
+  }
+}
+
+// Coba (>)
+.Nesting > p {
+  font-size: 50px;
+}
+
+// Inheritance
+%message .Inherit {
+  font-size: 20px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.Inheritance {
+  background-color: red;
+}
+.Inheritance3 {
+  background-color: blue;
+}
+.Inheritance2 {
+  background-color: coral;
+}

@@ -1,0 +1,28 @@
+.Variables {
+  color: blue;
+}
+
+.Nesting p {
+  color: blue;
+}
+
+.Nesting ul {
+  color: red;
+}
+
+.Nesting > p {
+  font-size: 50px;
+}
+
+.Inheritance {
+  background-color: red;
+}
+
+.Inheritance3 {
+  background-color: blue;
+}
+
+.Inheritance2 {
+  background-color: coral;
+}
+/*# sourceMappingURL=p.css.map */
